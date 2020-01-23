@@ -7,4 +7,4 @@ def add(a, b):
 
 class TestAdd(unittest.TestCase):
     def test(self, sol):
-        self.assertEqual(sol(2,2), 4)
+        self.assertEqual(sol(3,3), 6)
